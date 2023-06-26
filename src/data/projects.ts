@@ -10,7 +10,7 @@ const projects: Project[] = [
     title: "Portfolio Site",
     description: "SSG portfolio site",
     techs: ["JS", "Astro"],
-    link: "https://github.com/katzy687/bump2release",
+    link: "https://github.com/katzy687/Astro-Portfolio",
   },
   {
     title: "Bump2Release",
