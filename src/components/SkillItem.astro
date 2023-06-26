@@ -1,0 +1,15 @@
+---
+
+type Props = {
+  category: string;
+  techs: string[];
+};
+
+const { category, techs } = Astro.props;
+---
+
+<span>
+  <em>{category}</em>:  {techs.join(",  ")}
+  <br>
+  <br>
+</span>
