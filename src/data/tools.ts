@@ -22,7 +22,7 @@ export type Tool = {
     },
     {
       category: "Cloud Providers",
-      techs: ["AWS", "Azure", "Linode"]
+      techs: ["AWS", "Azure", "Linode", "Netlify"]
     },
     {
       category: "IaC",
