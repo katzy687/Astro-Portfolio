@@ -6,10 +6,11 @@ import ProjectCard from "@/components/ProjectCard.astro";
 import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 import SkillItem from "@/components/SkillItem.astro";
+import BackToTop from "@/components/shared/BackToTop.astro";
 
 
 import presentation from "@/data/presentation";
-import projects from "@/data/projects";
+import {personalProjects, workProjects} from "@/data/projects";
 import tools from "@/data/tools";
 ---
 
@@ -27,15 +28,27 @@ import tools from "@/data/tools";
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 id="projects" class="text-lg text-neutral-100">
-          Projects ({projects.length})
+          Personal Projects ({personalProjects.length})
         </h3>
       </header>
-      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
-
       <section class="flex flex-col gap-4">
         {
-          projects.length !== 0 &&
-            projects.map((project) => <ProjectCard {...project} />)
+          personalProjects.length !== 0 &&
+          personalProjects.map((project) => <ProjectCard {...project} />)
+        }
+      </section>
+    </article>
+
+    <article class="flex flex-col gap-8">
+      <header class="flex w-full flex-row justify-between gap-2">
+        <h3 class="text-lg text-neutral-100">
+          Work Projects ({workProjects.length})
+        </h3>
+      </header>
+      <section class="flex flex-col gap-4">
+        {
+          workProjects.length !== 0 &&
+          workProjects.map((project) => <ProjectCard {...project} />)
         }
       </section>
     </article>
@@ -65,4 +78,5 @@ import tools from "@/data/tools";
 
     <SocialLinks />
   </article>
+  <BackToTop/>
 </Layout>

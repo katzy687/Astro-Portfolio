@@ -1,9 +1,11 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c911b4f-a139-41c7-91b7-bd7cf80799b4/deploy-status)](https://app.netlify.com/sites/fluffy-otter-3737d3/deploys)
+
 # 👨‍🚀 Astro - Dev Portfolio 
-A dev portfolio using the Astro JS library
+My dev portfolio using the Astro JS library. Deployed to Netlify.
 
 ## Usage
 
-- You can modify all the information in the files in the `data` folder (presentation, social links, projects list, colors).
+- If using this as template Astro project, can modify all the information in the files in the `data` folder (presentation, social links, projects list, colors).
 
 
 ## Commands
