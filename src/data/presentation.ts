@@ -14,8 +14,9 @@ const presentation: Presentation = {
   mail: "katzy687@gmail.com",
   title: "Natti Katz",
   description:`Hi, I'm Natti. I'm a Software Engineer working in the tech space since 2016.
-  I enjoy working across the web stack, from backend and frontend frameworks to cloud infra and devops automation.
-  Outside of tech, I enjoy trekking, training martial arts, and pick-up basketball.`,
+  I enjoy building across the web stack - from database and api design to frontend frameworks, cloud infra and devops.
+  This page is to showcase some projects I've worked on.
+  Outside of tech, I enjoy trekking, martial arts, and pick-up basketball.`,
   socials: [
     {
       label: "Github",
