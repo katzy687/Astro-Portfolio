@@ -16,7 +16,7 @@ const presentation: Presentation = {
   description:`Hi, I'm Natti. I'm a Software Engineer working in the tech space since 2016.
   I enjoy building across the web stack - from database and api design to frontend frameworks, cloud infra and devops.
   This page is to showcase some projects I've worked on.
-  Outside of tech, I enjoy trekking, martial arts, and pick-up basketball.`,
+  Outside of tech, I enjoy trekking, martial arts, and basketball.`,
   socials: [
     {
       label: "Github",
