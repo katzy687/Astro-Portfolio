@@ -10,7 +10,7 @@ export type Tool = {
     },
     {
       category: "Databases",
-      techs: ["PostGresQL", "MongoDB", "Redis", "Supabase", "Neon", "Neo4J"]
+      techs: ["PostGresQL", "MongoDB", "Redis", "Supabase", "Neo4J", "InfluxDB"]
     },
     {
       category: "Backend",
@@ -29,8 +29,16 @@ export type Tool = {
       techs: ["Terraform", "Ansible", "Pulumi"]
     },
     {
-      category: "Containers",
-      techs: ["Docker", "Docker Compose"]
+      category: "CI",
+      techs: ["Github Actions", "Gitlab CI", "Jenkins"]
+    },
+    {
+      category: "Monitoring",
+      techs: ["Grafana", "Loki", "Prometheus", "Elastic stack"]
+    },
+    {
+      category: "Services",
+      techs: ["Hashicorp Vault"]
     },
   ];
   
