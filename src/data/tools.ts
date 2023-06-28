@@ -10,15 +10,15 @@ export type Tool = {
     },
     {
       category: "Databases",
-      techs: ["PostGresQL", "MongoDB", "Redis", "Supabase"]
+      techs: ["PostGresQL", "MongoDB", "Redis", "Supabase", "Neon", "Neo4J"]
     },
     {
       category: "Backend",
-      techs: ["Flask", "FastAPI", "ExpressJS"]
+      techs: ["Flask", "FastAPI", "Node", "Express", "Gin"]
     },
     {
       category: "Frontend",
-      techs: ["Astro", "React", "SolidJS"]
+      techs: ["React", "Solid", "Astro", "TailwindCSS", "Vite"]
     },
     {
       category: "Cloud Providers",
@@ -26,11 +26,11 @@ export type Tool = {
     },
     {
       category: "IaC",
-      techs: ["Terraform", "Ansible", "Cloud Formation", "Pulumi"]
+      techs: ["Terraform", "Ansible", "Pulumi"]
     },
     {
       category: "Containers",
-      techs: ["Docker"]
+      techs: ["Docker", "Docker Compose"]
     },
   ];
   
