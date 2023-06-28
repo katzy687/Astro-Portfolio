@@ -13,8 +13,8 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "katzy687@gmail.com",
   title: "Natti Katz",
-  description:`I'm working as a Software Engineer since 2016. 
-  I enjoy working across the web stack, from backend and frontend frameworks to cloud infra and devops automation. 
+  description:`Hi, I'm Natti. I'm a Software Engineer working in the tech space since 2016.
+  I enjoy working across the web stack, from backend and frontend frameworks to cloud infra and devops automation.
   Outside of tech, I enjoy trekking, training martial arts, and pick-up basketball.`,
   socials: [
     {
