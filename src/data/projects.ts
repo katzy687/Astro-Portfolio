@@ -60,13 +60,13 @@ const contributingProjects: Project[] = [
     title: "Terraform Service",
     description: "Added support for multiple git providers and offline use",
     techs: ["python", "terraform", "gitlab"],
-    link: "https://github.com/QualiSystemsLab/cloudshell-user-sync",
+    link: "https://github.com/QualiSystemsLab/CloudShell-Terraform-Shell",
   },
   {
     title: "Ansible Service",
     description: "Forked extension providing streaming logs and 'day 2' playbooks",
     techs: ["python", "ansible"],
-    link: "https://github.com/QualiSystemsLab/cloudshell-scriptfoundry",
+    link: "https://github.com/QualiSystemsLab/Ansible-Shell-Extended",
   }
 ];
 
