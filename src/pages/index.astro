@@ -3,6 +3,7 @@
 import Layout from "@/layouts/Layout.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
 import ProjectCard from "@/components/ProjectCard.astro";
+import ProjectsSection from "@/components/ProjectsSection.astro";
 import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 import SkillItem from "@/components/SkillItem.astro";
@@ -10,7 +11,7 @@ import BackToTop from "@/components/shared/BackToTop.astro";
 
 
 import presentation from "@/data/presentation";
-import {personalProjects, workProjects} from "@/data/projects";
+import {personalProjects, workProjects, contributingProjects} from "@/data/projects";
 import tools from "@/data/tools";
 ---
 
@@ -22,37 +23,17 @@ import tools from "@/data/tools";
         class="max-w-[60ch] leading-6"
         set:html={convertAsteriskToStrongTag(presentation.description)}
       />
-      <!-- <p2>{presentation.secondary}</p2> -->
       <SocialLinks />
     </article>
 
-    <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
-        <h3 id="projects" class="text-lg text-neutral-100">
-          Personal Projects ({personalProjects.length})
-        </h3>
-      </header>
-      <section class="flex flex-col gap-4">
-        {
-          personalProjects.length !== 0 &&
-          personalProjects.map((project) => <ProjectCard {...project} />)
-        }
-      </section>
-    </article>
+    <ProjectsSection headerTitle="Personal Projects" headerId="projects" 
+    projects={personalProjects}/>
 
-    <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">
-          Work Projects ({workProjects.length})
-        </h3>
-      </header>
-      <section class="flex flex-col gap-4">
-        {
-          workProjects.length !== 0 &&
-          workProjects.map((project) => <ProjectCard {...project} />)
-        }
-      </section>
-    </article>
+    <ProjectsSection headerTitle="Work Projects" headerId="work-projects" 
+    projects={workProjects}/>
+    
+    <ProjectsSection headerTitle="Contributing" headerId="contributing" 
+    projects={contributingProjects}/>
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between">

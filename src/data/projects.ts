@@ -55,5 +55,20 @@ const workProjects: Project[] = [
 ];
 
 
+const contributingProjects: Project[] = [
+  {
+    title: "Terraform Service",
+    description: "Added support for multiple git providers and offline use",
+    techs: ["python", "terraform", "gitlab"],
+    link: "https://github.com/QualiSystemsLab/cloudshell-user-sync",
+  },
+  {
+    title: "Ansible Service",
+    description: "Forked extension providing streaming logs and 'day 2' playbooks",
+    techs: ["python", "ansible"],
+    link: "https://github.com/QualiSystemsLab/cloudshell-scriptfoundry",
+  }
+];
 
-export {personalProjects, workProjects};
+
+export {personalProjects, workProjects, contributingProjects};
