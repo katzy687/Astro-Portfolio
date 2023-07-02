@@ -25,10 +25,6 @@ const presentation: Presentation = {
     {
       label: "LinkedIn",
       link: "https://www.linkedin.com/in/nattik/",
-    },
-    {
-      label: "Instagram",
-      link: "https://www.instagram.com/katzy687/",
     }
   ],
 };

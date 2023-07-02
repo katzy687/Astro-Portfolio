@@ -1,9 +1,9 @@
-export type Tool = {
+export type Skill = {
     category: string;
     techs: string[];
   };
   
-  const tools: Tool[] = [
+  const skills: Skill[] = [
     {
       category: "Languages",
       techs: ["Python", "JS/TS", "Go"]
@@ -42,5 +42,5 @@ export type Tool = {
     },
   ];
   
-  export default tools;
+  export default skills;
   

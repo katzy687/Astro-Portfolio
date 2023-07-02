@@ -12,7 +12,7 @@ import BackToTop from "@/components/shared/BackToTop.astro";
 
 import presentation from "@/data/presentation";
 import {personalProjects, workProjects, contributingProjects} from "@/data/projects";
-import tools from "@/data/tools";
+import skills from "@/data/tools";
 ---
 
 <Layout>
@@ -37,11 +37,11 @@ import tools from "@/data/tools";
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between">
-        <h3 id="tools" class="text-lg text-neutral-100">Tools</h3>
+        <h3 id="skills" class="text-lg text-neutral-100">Skills</h3>
       </header>
       <p>
         {
-          tools.map((tool) => <SkillItem {...tool}/>)
+          skills.map((tool) => <SkillItem {...tool}/>)
         }
       </p>
     </article>
