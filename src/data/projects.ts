@@ -28,12 +28,7 @@ const personalProjects: Project[] = [
 ];
 
 const workProjects: Project[] = [
-  {
-    title: "AD Sync Service",
-    description: "Sync AD users to App DB on cron scheduler",
-    techs: ["python", "ldap3", "keyring"],
-    link: "https://github.com/QualiSystemsLab/cloudshell-user-sync",
-  },
+  
   {
     title: "Scriptfoundry CLI",
     description: "CLI tool for templating orchestration projects",
@@ -42,15 +37,21 @@ const workProjects: Project[] = [
   },
   {
     title: "Sandbox Reporter",
-    description: "Utility library for Cloudshell logging",
+    description: "Utility library for platform logging",
     techs: ["python, cloudshell"],
     link: "https://github.com/QualiSystemsLab/cloudshell-sandbox-reporter",
   },
   {
     title: "CI API Client",
-    description: "REST client for consuming Cloudshell CI environments",
+    description: "REST client for consuming CI sandbox environments",
     techs: ["python, cloudshell"],
     link: "https://github.com/QualiSystemsLab/cloudshell-sandbox-reporter",
+  },
+  {
+    title: "AD Sync Service",
+    description: "Sync Active Directory users to App DB on cron scheduler",
+    techs: ["python", "ldap3", "keyring"],
+    link: "https://github.com/QualiSystemsLab/cloudshell-user-sync",
   }
 ];
 
@@ -64,7 +65,7 @@ const contributingProjects: Project[] = [
   },
   {
     title: "Ansible Service",
-    description: "Forked extension providing streaming logs and 'day 2' playbooks",
+    description: "Added streaming logs and 'day 2' playbook execution capability",
     techs: ["python", "ansible"],
     link: "https://github.com/QualiSystemsLab/Ansible-Shell-Extended",
   }

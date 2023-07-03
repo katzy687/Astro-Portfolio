@@ -6,15 +6,15 @@ export type Skill = {
   const skills: Skill[] = [
     {
       category: "Languages",
-      techs: ["Python", "JS/TS", "Go"]
+      techs: ["Python", "Javascript", "Typescript"]
     },
     {
       category: "Databases",
-      techs: ["PostGresQL", "MongoDB", "Redis", "Supabase", "Neo4J", "InfluxDB"]
+      techs: ["PostGresQL", "MongoDB", "Redis", "InfluxDB"]
     },
     {
       category: "Backend",
-      techs: ["Flask", "FastAPI", "Node", "Express", "Gin"]
+      techs: ["Flask", "FastAPI", "SQLAlchemy", "Alembic", "Node", "Express", "Mongoose", "Prisma"]
     },
     {
       category: "Frontend",
@@ -34,12 +34,8 @@ export type Skill = {
     },
     {
       category: "Monitoring",
-      techs: ["Grafana", "Loki", "Prometheus", "Elastic stack"]
-    },
-    {
-      category: "Services",
-      techs: ["Hashicorp Vault"]
-    },
+      techs: ["Grafana", "Loki", "Prometheus"]
+    }
   ];
   
   export default skills;
